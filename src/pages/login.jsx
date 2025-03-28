@@ -2,7 +2,8 @@ import * as React from 'react';
 import { AppProvider } from '@toolpad/core/AppProvider';
 import { SignInPage } from '@toolpad/core/SignInPage';
 import { useTheme } from '@mui/material/styles';
-import { Box, Button, Stack, TextField, Typography, Alert } from '@mui/material';
+import { Box, Stack, Alert } from '@mui/material';
+//import { Box, Button, Stack, TextField, Typography, Alert } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import Register from './register'; // Importamos el componente Register
